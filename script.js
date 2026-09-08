@@ -3,7 +3,7 @@
 // ===============================
 const CONFIG = {
   // Minecraft server address shown on the page
-  serverIp: "lifestealzsmp.falix.pro",
+  serverIp: "play2.eternalzero.cloud:26471",
 
   // Server status API. mcstatus.io is free for basic public status checks.
   // Example: https://api.mcstatus.io/v2/status/java/play.example.net
