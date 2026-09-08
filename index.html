@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LifeStealZ SMP — Minecraft Server</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home">⚔️ LifeStealZ SMP</a>
+    <nav>
+      <a href="#team">AdminTeam</a>
+      <a href="#vip">VIP</a>
+      <a href="#applications">Nábor</a>
+      <a href="#rules">Pravidlá</a>
+      <a href="#vote">Vote</a>
+      <a href="#store">Store</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">MINECRAFT SERVER</p>
+        <h1>LifeStealZ SMP</h1>
+        <p class="subtitle">Survive. Fight. Steal hearts.</p>
+
+        <div class="status-card">
+          <div>
+            <span id="statusDot" class="status-dot"></span>
+            <span id="serverStatus">Kontrolujem server...</span>
+          </div>
+          <strong id="playerCount">—</strong>
+          <span>hráčov online</span>
+        </div>
+
+        <div class="ip-box">
+          <span id="serverIp">lifestealzsmp.falix.pro</span>
+          <button id="copyIp">📋 Kopírovať IP</button>
+        </div>
+
+        <div class="buttons">
+          <a class="btn primary" href="https://discord.gg/fT3yHx7kg" target="_blank">💬 Discord</a>
+          <a class="btn" href="#store">🛒 Store</a>
+        </div>
+        <p id="copyMessage" class="copy-message"></p>
+      </div>
+    </section>
+
+    <section id="team" class="section">
+      <p class="eyebrow">STAFF</p>
+      <h2>👑 AdminTeam</h2>
+      <div class="grid team-grid">
+        <article class="card">
+          <div class="avatar">👑</div>
+          <h3>Krlkla1234</h3>
+          <span class="role owner">OWNER</span>
+          <p>Server Owner</p>
+        </article>
+        <article class="card">
+          <div class="avatar">🛡️</div>
+          <h3>Satorashi</h3>
+          <span class="role admin">ADMIN</span>
+          <p>Server Administrator</p>
+        </article>
+        <article class="card">
+          <div class="avatar">🛡️</div>
+          <h3>shodow3322332211</h3>
+          <span class="role admin">ADMIN</span>
+          <p>Server Administrator</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="vip" class="section alt">
+      <p class="eyebrow">PERKS</p>
+      <h2>💎 VIP Ranky</h2>
+      <div class="grid vip-grid">
+        <article class="card vip-card">
+          <h3>Hero</h3>
+          <ul>
+            <li>❤️ Až 25 sŕdc</li>
+            <li>🛠️ /workbench</li>
+            <li>🎁 Kit Hero</li>
+          </ul>
+          <a class="btn primary" href="#store">Kúpiť</a>
+        </article>
+        <article class="card vip-card featured">
+          <span class="popular">POPULAR</span>
+          <h3>Legend</h3>
+          <ul>
+            <li>🛠️ /workbench</li>
+            <li>🔨 /nákova</li>
+            <li>🪽 /fly</li>
+            <li>❤️ +10 sŕdc</li>
+            <li>🎁 Kity Hero + Legend</li>
+          </ul>
+          <a class="btn primary" href="#store">Kúpiť</a>
+        </article>
+        <article class="card vip-card">
+          <h3>Patron</h3>
+          <ul>
+            <li>🔨 /nákova</li>
+            <li>🛠️ /workbench</li>
+            <li>❤️ Až 35 sŕdc</li>
+            <li>🚫 /ignore</li>
+            <li>✨ XP sa po smrti zachová</li>
+            <li>🎁 Kity Legend + Hero + Patron</li>
+          </ul>
+          <a class="btn primary" href="#store">Kúpiť</a>
+        </article>
+        <article class="card vip-card">
+          <h3>LifeSteal</h3>
+          <ul>
+            <li>🔨 /nákova</li>
+            <li>🛠️ /workbench</li>
+            <li>❤️ Až 35 sŕdc</li>
+            <li>🚫 /ignore</li>
+            <li>🪽 /fly</li>
+            <li>✨ XP sa po smrti zachová</li>
+            <li>🎁 Kity Legend + Hero + Patron + LifeSteal</li>
+          </ul>
+          <a class="btn primary" href="#store">Kúpiť</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="applications" class="section">
+      <p class="eyebrow">JOIN OUR TEAM</p>
+      <h2>📝 Nábor do AdminTeamu</h2>
+      <p class="section-text">Chceš sa pridať do nášho tímu? Vyber si pozíciu a vyplň príslušný formulár.</p>
+      <div class="grid application-grid">
+        <article class="card application-card">
+          <div class="application-icon">🔨</div>
+          <h3>Builder</h3>
+          <p>Máš talent na stavanie a chceš pomáhať s tvorbou servera?</p>
+          <a class="btn primary" href="#" target="_blank">Vyplniť formulár →</a>
+        </article>
+        <article class="card application-card">
+          <div class="application-icon">💻</div>
+          <h3>Developer</h3>
+          <p>Vieš programovať pluginy alebo pomáhať s technickou stránkou servera?</p>
+          <a class="btn primary" href="#" target="_blank">Vyplniť formulár →</a>
+        </article>
+        <article class="card application-card">
+          <div class="application-icon">🛡️</div>
+          <h3>Helper</h3>
+          <p>Chceš pomáhať hráčom a starať sa o komunitu?</p>
+          <a class="btn primary" href="#" target="_blank">Vyplniť formulár →</a>
+        </article>
+        <article class="card application-card">
+          <div class="application-icon">🎥</div>
+          <h3>Media Rank</h3>
+          <p>Tvoríš videá, streamy alebo iný obsah o našom serveri?</p>
+          <a class="btn primary" href="#" target="_blank">Vyplniť formulár →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="rules" class="section">
+      <p class="eyebrow">SERVER INFO</p>
+      <h2>📜 Pravidlá</h2>
+      <div class="rules">
+        <p><b>1.</b> Rešpektuj ostatných hráčov a členov tímu.</p>
+        <p><b>2.</b> Žiadne cheaty, hacky ani nefér klienty.</p>
+        <p><b>3.</b> Žiadny spam, scamy ani škodlivá reklama.</p>
+        <p><b>4.</b> Nezneužívaj bugy. Nahlás ich AdminTeamu.</p>
+        <p><b>5.</b> Dodržiavaj pokyny tímu a oznámenia servera.</p>
+      </div>
+    </section>
+
+    <section id="vote" class="section alt">
+      <p class="eyebrow">SUPPORT THE SERVER</p>
+      <h2>🗳️ Hlasovanie</h2>
+      <p class="section-text">Hlasuj za LifeStealZ SMP na našich hlasovacích stránkach a pomôž nášmu serveru rásť!</p>
+      <div class="grid link-grid vote-grid">
+        <a class="card link-card" href="https://minecraft-list.cz/server/lifestealzsmp" target="_blank">
+          <span>🗳️</span><h3>Minecraft-List.cz</h3><p>Hlasovať za LifeStealZ SMP</p>
+        </a>
+        <a class="card link-card" href="#" target="_blank">
+          <span>🗳️</span><h3>Hlasovanie #2</h3><p>Sem vlož druhú hlasovaciu stránku</p>
+        </a>
+        <a class="card link-card" href="#" target="_blank">
+          <span>🗳️</span><h3>Hlasovanie #3</h3><p>Sem vlož tretiu hlasovaciu stránku</p>
+        </a>
+        <a class="card link-card" href="#" target="_blank">
+          <span>🗳️</span><h3>Hlasovanie #4</h3><p>Sem vlož štvrtú hlasovaciu stránku</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="store" class="section store">
+      <p class="eyebrow">SUPPORT US</p>
+      <h2>🛒 Store</h2>
+      <p class="section-text">Zakúp si ranky, kľúče a ďalšie výhody v našom oficiálnom obchode.</p>
+      <a class="btn primary large" href="https://lifestealzsmp0.craftingstore.net/" target="_blank">Otvoriť Store →</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 LifeStealZ SMP • Not affiliated with Mojang Studios.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
