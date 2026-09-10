@@ -7,7 +7,7 @@ const CONFIG = {
 
   // Server status API. mcstatus.io is free for basic public status checks.
   // Example: https://api.mcstatus.io/v2/status/java/play.example.net
-  statusApi: "https://api.mcstatus.io/v2/status/java/lifestealzsmp.falix.pro",
+  statusApi: "https://api.mcstatus.io/v2/status/java/play2.eternalzero.cloud:26471",
 
   // Replace with your real store URL
   storeUrl: "https://lifestealzsmp0.craftingstore.net/",
